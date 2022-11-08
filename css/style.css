@@ -161,16 +161,139 @@
 		background-color:yellow;
 		padding:50px 0;
 	}
-	.services{
+
+
+
+
+/*-----portfolio style-----*/
+
+.port1-box {
+    background-color: #ef5350;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+
+.port2-box {
+    background-color: #ef5350;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.port3-box {
+    background-color: #ef5350;
+    height: 200px;
+   
+}
+
+
+
+.port11-box {
+    background-color: #ef5350;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+.port12-box {
+    background-color: #ef5350;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.port13-box {
+    background-color: #ef5350;
+    height: 200px;
+   
+}
+
+
+
+.port111-box {
+    background-color: white;
+  
+ }
+
+.port121-box {
+    background-color: #ef5350;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.port131-box {
+    background-color: #ef5350;
+    height: 150px;
+   
+}
+
+
+
+
+.port1111-box {
+    background-color: white;
+ }
+
+.port1211-box {
+    background-color: white;
+}
+
+.port1311-box {
+    background-color: #ef5350;
+    height: 150px; 
+}
+
+
+/*====team section style===*/
+.team-item{
 		background-color:blue;
-		height:20px;
-	}
+		height:200px;
+}
+	
+
+
+
+/*------contact style----*/
+.contact-item{
+	background-color:gray;
+	height:50px;
+}
+
+.portfolio-items{
+	justify-content:center;
+	padding:20px 0;
+}
+.contact2-item{
+		background-color:gray;
+	height:50px;
+}
+
+.send-message{
+	background-color:white;
+}
+.send{
+	background-color:coral;
+	height:50px;
+}
+
+
+
+/*---footer section----*/
+.footer-section{
+	background-color:black;
+	padding:50px 0;
+}
+.footer-box{
+		background-color:white;
+		height:300px;
+}
+	
+
+	
+
+
+
 	
 	
-	
-	
-	
-	.detail
+.detail
 {
 	background-color:gray;
 	padding:50px 0;
@@ -182,8 +305,5 @@
   
   }
   
-  .detail-button{
-	  background-color:red;
-	  height:100px;
-  }
+ 
   
