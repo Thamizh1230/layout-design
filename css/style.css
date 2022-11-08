@@ -1,0 +1,189 @@
+
+
+.container
+{
+	width:1170px;
+	margin:0 auto;
+	padding:0 15px;
+	
+}
+.row{
+	display:flex;
+	margin-left:-15px;
+	margin-right:-15px;
+	flex-wrap:wrap;
+}
+.row > *{
+	width:100%;
+	padding:0 15px;
+}
+	
+
+.col-lg-1{
+	
+	width: 8.33%;
+	padding:0 15px;
+}
+.col-lg-2{                                             
+	
+	width: 16.66%;
+	padding:0 15px;
+}
+.col-lg-3{
+	
+	width: 25%;
+	padding:0 15px;
+}
+.col-lg-4{
+	
+	width: 33.33%;
+	padding:0 15px;
+}
+.col-lg-5{
+	
+	width: 41.66%;
+	padding:0 15px;
+}
+.col-lg-6{
+	
+	width: 50%;
+	padding:0 15px;
+}
+.col-lg-7{
+	
+	width: 58.33%;
+	padding:0 15px;
+}
+.col-lg-8{
+	
+	width: 66.66%;
+	padding:0 15px;
+}
+.col-lg-9
+{
+	
+	width: 75%;
+	padding:0 15px;
+}
+.col-lg-10{
+	
+	width: 83.33%;
+	padding:0 15px;
+}
+.col-lg-11{
+	
+	width: 91.66%;
+	padding:0 15px;
+}
+.col-lg-12{
+	
+	width: 100%;
+	padding:0 15px;
+}
+/*------header style-----*/
+
+.top-header{
+	background-color:black;
+	padding:10px 0;
+}
+.logo{
+	background-color:#26a69a;
+	height:50px;
+}
+.nav{
+	background-color:#26a69a;
+	height:50px;
+}
+.nav-button{
+	background-color:#26a69a;
+	height:50px;
+}
+
+/* banner style----*/
+	
+.banner-section
+{
+	background-color:gray;
+	padding:50px 0;
+	
+}
+.banner-content {
+    background-color: #ef5350;
+    height: 400px;
+   margin-bottom:30px;
+}
+.banner-items {
+	justify-content: center;
+}
+.banner-boxes {
+    background-color: #ef5350;
+    height: 200px;
+    margin-bottom: 20px;
+}
+ 
+/*-----about----*/
+.about{
+	background-color:black;
+	padding:50px 0;
+}
+.about-content{
+	background-color:red;
+	height:300px;
+}
+.about-image{
+	background-color:red;
+	height:300px;
+}
+	/*---about section ends---*/
+	
+	
+	
+	/*------client logo style---*/
+	
+	
+	.client-logo{
+		background-color:coral;
+		padding:50px 0;
+	}
+	.logo-symbol{
+		background-color:black;
+		height:100px;
+	}
+	
+	
+	
+	
+	
+	
+	/*======section title style====*/
+	
+	.section-title{
+		background-color:yellow;
+		padding:50px 0;
+	}
+	.services{
+		background-color:blue;
+		height:20px;
+	}
+	
+	
+	
+	
+	
+	.detail
+{
+	background-color:gray;
+	padding:50px 0;
+}
+
+  .detail-content {
+    background-color: pink;
+    height: 200px;
+  
+  }
+  
+  .detail-button{
+	  background-color:red;
+	  height:100px;
+  }
+  
