@@ -85,6 +85,10 @@
 .top-header{
 	background-color:black;
 	padding:10px 0;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
 }
 h1.logo > a{
 	color:white;
@@ -215,17 +219,6 @@ h1.logo > a > span{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .nav-button{
 	border-color:#ffc451;
 }
@@ -234,22 +227,28 @@ h1.logo > a > span{
 	
 .banner-section
 {
-	background-color:gray;
-	padding:50px 0;
+background-image:linear-gradient(rgb(0 0 0 / 55%),rgb(0 0 0 / 24%)),url(../image/hero-bg.jpg);
+background-attachment:fixed;
+background-repeat:norepeat;
+background-size:cover;
+background-position:center top;
+height:100vh;
+}
+
 	
 }
-.banner-content {
-    background-color: #ef5350;
-    height: 400px;
-   margin-bottom:30px;
+.banner-content h1{
+	color:white;
+	font-size:50px;
+	font-weight:500;
+	
+   
 }
 .banner-items {
 	justify-content: center;
 }
 .banner-boxes {
-    background-color: #ef5350;
-    height: 200px;
-    margin-bottom: 20px;
+  
 }
  
 /*-----about----*/
