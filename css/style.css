@@ -237,18 +237,42 @@ height:100vh;
 
 	
 }
+.banner-content{
+	text-align:center; 
+}
 .banner-content h1{
 	color:white;
 	font-size:50px;
-	font-weight:500;
-	
-   
+	font-weight:700;
+	padding-bottom:15px;
+
 }
-.banner-items {
-	justify-content: center;
+
+.banner-content p{
+
+color::white;
+font-size:20px;
+
 }
+
+.banner-content h1 span{
+	color:#ffc451;
+}
+
+
 .banner-boxes {
-  
+	text-align:center;
+	border: solid 1px #ffc451;
+	padding:30px 20px;
+
+}
+
+.banner-boxes h4{
+ color:white;
+font-size:20px;
+} 
+.banner-boxes h4:hover{
+color:#ffc451;
 }
  
 /*-----about----*/
