@@ -264,13 +264,12 @@ font-size:20px;
 	text-align:center;
 	border: solid 1px #ffc451;
 	padding:30px 20px;
+	 color:white;
+   font-size:20px;
 
 }
 
-.banner-boxes h4{
- color:white;
-font-size:20px;
-} 
+
 .banner-boxes h4:hover{
 color:#ffc451;
 }
