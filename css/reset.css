@@ -37,15 +37,22 @@ time, mark, audio, video
 
 body {
     line-height:1;
-	font-family:'Open Sans',sans-serif;
+	font-family:'Open Sans', sans-serif;
+	color: #444444;
 }
 
+p,li{
+		    color: #444444;
+			font-size:15px;
+			line-height:23px;
+			
+}
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
-nav ul {
+nav ul,ul {
     list-style:none;
 }
 

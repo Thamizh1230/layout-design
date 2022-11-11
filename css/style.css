@@ -83,7 +83,7 @@
 /*------header style-----*/
 
 .top-header{
-	background-color:black;
+	background-color:transparent;
 	padding:10px 0;
 	position:fixed;
 	top:0;
@@ -111,14 +111,18 @@ h1.logo > a > span{
 .nav .nav-menu .nav-list{
 	
 	color:white;
-	padding:5px 10px;
+	
 	display:inline-block;
 }
 
 .nav-list > a{
+	display:block;
 	text-decoration:none;
 	font-size:15px;
+	font-weight:600;
+	justify-content:space-between;
 	color:white;
+	padding:12px 10px;
 }
 .nav-list > a:hover{
 	color:#ffc451;
@@ -167,6 +171,19 @@ h1.logo > a > span{
 .dropdown{
 	position:relative;
 }
+
+.dropdown-sub{
+	
+	position:relative
+	
+}
+.deepdropdown{
+	position:absolute;
+	top:50px;
+	right:50px;
+	transform:translateY(-50%);
+}
+
 .dropdown-nav, .dropdown-sub-nav{
 	background-color:white;
 	position:absolute;
@@ -179,28 +196,32 @@ h1.logo > a > span{
 	opacity:0;
 	visibility:hidden;
 	transform:translateY(30px);
-	transition:all 0.3px ease;
+	transition:all 0.3s ease;
 }
 
 .dropdown-sub-nav{
 	left:100%;
-	top:80%;
+	top:0;
 	transform:translateX(-30px);
+	transition: all 0.3s ease;
+	padding:10px 0;
 }
 	
 
 .dropdown:hover .dropdown-nav, .dropdown-sub:hover .dropdown-sub-nav{
 	opacity:1;
 	visibility:visible;
-	transform:translateY(0);
+	transform:translate(0,0);
+	text-align:left;
+	
 }
 
 .dropdown-nav > li > a, .dropdown-sub-nav > li > a{
-	display:inline-block;
+	display:block;
 	text-decoration:none;
 	color:black;
 	text-align:left;
-	padding: 8px 15px;
+	padding: 10px 15px;
 	transition:all 0.3s ease;
 
 }
@@ -227,31 +248,37 @@ h1.logo > a > span{
 	
 .banner-section
 {
-background-image:linear-gradient(rgb(0 0 0 / 55%),rgb(0 0 0 / 24%)),url(../image/hero-bg.jpg);
+background-image:linear-gradient(rgb(0 0 0 / 55%),rgb(0 0 0 / 55%)),url(../image/hero-bg.jpg);
 background-attachment:fixed;
-background-repeat:norepeat;
+background-repeat:no-repeat;
 background-size:cover;
 background-position:center top;
+padding:80x 0;
 height:100vh;
+
+}
+.banner-items{
+	justify-content:center;
 }
 
-	
-}
 .banner-content{
 	text-align:center; 
+	margin-bottom:50px;
+	padding: 197px 0 10px 0;
 }
 .banner-content h1{
-	color:white;
-	font-size:50px;
-	font-weight:700;
-	padding-bottom:15px;
+	    color: white;
+    font-size: 55px;
+    line-height: 61px;
+    font-weight: 600;
+    padding-bottom: 10px;
 
 }
 
 .banner-content p{
 
-color::white;
-font-size:20px;
+color:#ccc;
+font-size:25px;
 
 }
 
@@ -259,33 +286,73 @@ font-size:20px;
 	color:#ffc451;
 }
 
-
 .banner-boxes {
 	text-align:center;
-	border: solid 1px #ffc451;
+	border: solid 1px #c2b0b06e;
 	padding:30px 20px;
 	 color:white;
    font-size:17px;
+   height:100%;
 
 }
 
-
-.banner-boxes h4:hover{
-color:#ffc451;
+.banner-boxes i{
+	color: #ffc451;
+	font-size:25px;
+	padding-bottom:22px;
 }
+
+.banner-boxes:hover{
+
+	border: solid 1px #ffc451;
+}
+ 
+ .banner-boxes h4:hover{
+	 color:#ffc451;
+ }
+ 
+ 
+ 
  
 /*-----about----*/
 .about{
-	background-color:black;
-	padding:50px 0;
+	padding:70px 0;
+	
+
 }
 .about-content{
-	background-color:red;
-	height:300px;
+	justify-content:center;
 }
-.about-image{
-	background-color:red;
-	height:300px;
+
+.about-content h2{
+	 font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.about-content ul{
+		margin-bottom:20px;
+}
+	
+.about-content ul li{
+	position:relative; 
+	padding: 2px 24px;
+
+}
+.about-content ul li i{
+	position:absolute;
+	left:-3px;
+	top:6px;
+	font-size:20px;
+	
+	color:#ffc451;
+}
+
+.about-content p{
+	margin-bottom:15px;
+}
+.about-image img{
+	height:auto;
+	width:100%;
 }
 	/*---about section ends---*/
 	
@@ -295,16 +362,81 @@ color:#ffc451;
 	
 	
 	.client-logo{
-		background-color:coral;
+		
 		padding:50px 0;
 	}
-	.logo-symbol{
-		background-color:black;
-		height:100px;
+.logo-symbol{
+		height:100%;
+		padding:20px 40px;
+		
+	}
+	
+	.logo-symbol img{
+		width:100%;
+		height:auto;
+		filter:grayscale(1);
+		opacity:0.5;
+	}
+	
+	.logo-symbol img:hover{
+		filter:grayscale(0);
+		opacity:1;
 	}
 	
 	
+	.dots{
+		text-align:center;
+		padding:50px 0;
+	}
 	
+	.dots .dot-circle{
+		width:10px;
+		height:10px;
+		display:inline-block;
+		border-radius:50%;
+		background-color:#ccc;
+		cursor:pointer;
+		margin:0 3px;
+		transition:all 0.3s ease;
+	}
+	
+	.dot-circle .active{
+		
+		background-color:#ffc451;
+	}
+	
+	.dots .dot-circle:hover{
+		
+		background-color: #ffc451;
+	}
+
+
+
+/* =====features style=====*/
+.features{
+	padding:50px 0;
+	margin-bottom:20px;
+	
+}
+
+.feature-image img{
+	width:100%;
+	height:auto;
+}
+
+.feature1 i{
+  color:#ffc451;
+   font-size:30px;
+}   
+.feature1 p{
+	font-size;15px;
+	
+
+}
+
+
+
+
 	
 	
 	
