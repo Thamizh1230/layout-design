@@ -400,7 +400,7 @@ font-size:25px;
 		transition:all 0.3s ease;
 	}
 	
-	.dot-circle .active{
+	.dot-circle.active{
 		
 		background-color:#ffc451;
 	}
