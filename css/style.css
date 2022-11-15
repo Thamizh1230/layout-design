@@ -158,23 +158,22 @@ h1.logo > a > span{
 	align-items:stretch;
 } 
 	
-
-
+	
 .btns{
 	text-decoration:none;
 	font-size:15px;
 	padding:12px 25px;
-	border:solid 1px white;
+	border:solid 1px #ffc541;
 	border-radius:4px;
 	display:inline-block;
 	color:white;
-	font-weight:500;
-	
+	font-weight:500;	
 }
 
 .btns:hover{
 	color:black;
 	background-color:#ffc541;
+	border:solid 1px #ffc541;
 }
 
 .dropdown{
@@ -427,23 +426,25 @@ font-size:25px;
 }
 
 .feature1{
-	position:relative;
-	padding-left:38px;
-	padding-bottom:45px;
+	position: relative;
+    padding-left: 49px;
+    padding-bottom: 25px;
+
 }
 
 
 .feature1 i{
-     color: #ffc451;
-    font-size: 40px;
+    color: #ffc451;
+    font-size: 34px;
     position: absolute;
     top: 0;
-    left: -12px;
+    left:0;
+
 }  
 .feature1 h4{
-	font-size: 23px;
+	font-size: 21px;
     font-weight: 550;
-    padding-bottom: 14px;
+    padding-bottom: 10px;
 }
 
  
@@ -634,7 +635,7 @@ font-size:25px;
 	display:block;
 	height:auto;
 	width:100%;
-	transform:all 03s ease;
+	transition: all 0.3s ease;
 	
 }
 
@@ -656,6 +657,7 @@ font-size:25px;
 	display:flex;
 	align-items:flex-end;
 	padding:20px 20px 30px 0; 
+	transition:all 0.3s ease;
 	opacity:0;
 	visibility:hidden;	
 }
@@ -731,13 +733,13 @@ font-size:25px;
 .counts-content p{
 	
 	color:#6d5b5b;	
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 }
 
 
 .counter{
-	position:relative;
-	padding-left: 57px;
+	position: relative;
+    padding-left:45px;
 	
 }
 
@@ -749,15 +751,15 @@ font-size:25px;
 }
 .counter p{
 	
-	    margin-bottom: 35px;
+	    margin-bottom: 25px;
 }
 
 .counter i{
 	position: absolute;
-    top: 8px;
-    left: 1px;
-    font-size: 42px;
-    color: #ffc451;
+    top: 6px;
+    left: 0px;
+    font-size: 36px;
+	color:#ffc451
 	
 	
 }
@@ -773,7 +775,7 @@ font-size:25px;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:cover;
-	padding:70px 0;
+	padding:50px 0 20px 0;
 }
 .testi-part{
 	
@@ -830,32 +832,33 @@ font-size:25px;
     background: #fff;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
 	
-	position:relative;
-	transition:all 0.5s ease;
-	
 }
 
 .team-info:hover .team-icon{
 	
 	opacity:1;
 	visibility:visible;
-	
-	
+	transform:translateY(0);
+	transition:all 0.5s ease;
 }
+	.team-imge{	
+	position:relative;
 	
-
-
+		
+	}
+	
 
 .team-imge img{
-	
+	display:block;
 	height:auto;
 	width:100%;	
+	transition:all 0.5s ease;
 }
 
 .team-content{
 	padding:20px 15px;
 }
-
+ 
 
 .team-content h2{
 	font-size: 20px;
@@ -871,29 +874,42 @@ font-size:25px;
 	}
 	.team-icon{
 		position:absolute;
-		top:210px;
-		left:50px;
+		left:0;
+		bottom:2px;
+		transform:translateY(-20px);
+		transition:all 0.5s ease;
 		opacity:0;
+		display:block;
+		width:100%;
+		padding:30px 10px;
+		text-align:center;
 		visibility:hidden;
 		
 		}
+		
+		
 	
-	.team-icon span{
+	.team-icon a{
 		
 	display: inline-block;
     border-radius: 4px;
-    width: 40px;
-    height: 40px;
-    background-color: white;
-	padding-right:18px;	
+    width: 36px;
+    height: 36px;
+	text-align:center;
+	line-height:30px;
+	font-size:22px;
+	color:#484848;
+    background-color:rgba(255, 255, 255, 0.8);
+	margin:0 5px;	
 	}
 	
-	.team-icon i{
-		
-	font-size: 22px;
-    line-height: 30px;
-		
+	.team-icon a:hover{
+		background-color:#ffc541;
+		transition:all 0.3s ease;
+
 	}
+	
+	
 	
 	
 	
