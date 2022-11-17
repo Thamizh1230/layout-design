@@ -1009,29 +1009,118 @@ font-size:25px;
 	background-color:black;
 	padding:50px 0;
 }
-.footer-box{
-		background-color:white;
-		height:300px;
+.footer-box1 h2{
+	font-size:30px;
+	font-weight:600;
+	color:white;
+	margin-bottom:20px;
+
 }
+.footer-box1 h2 span{
+	color:#ffc541;
 	
-
 	
-
-
-
-	
-/* 	
-.detail
-{
-	background-color:gray;
-	padding:50px 0;
+}
+.footer-box1 p{
+		padding-bottom:25px;
+		font-size:16px;	
+		color: #ccc;		
 }
 
-  .detail-content {
-    background-color: pink;
-    height: 200px;
+.footer-box1 h3{
+		color:white;
+		font-size:15px;
+		font-weight:300;
+		padding-bottom:10px;
+}		
+
+.social-media-icon{
+	padding-top:12px;
+	}	
+	
+.social-media-icon a{
+	display:inline-block;
+	font-size:18px;
+	color:white;
+	background-color:#292929;
+	width:35px;
+	height:35px;
+	line-height:37px;
+	border-radius:4px;
+	text-align:center;
+	margin-right:7px;
+	transition:all 0.3s ease;
+}
+	.social-media-icon a:hover{
+		
+		color:black;
+	background-color:#ffc541;
+	
+	}
+	
+.footer-box2 h2{
+	color:white;
+	font-size:17px;
+	font-weight:600;
+	margin-bottom:20px;
+}
+.footer-box2 ul > li > a{
+	 text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 10px 0;
+    line-height: 36px;
+	
+	
+}
+
+.footer-box2 ul > li > a:hover{
+	
+	color:#ffc541;
+}
+
+.footer-box2 li > a > i{
+	color: #ffc541;
+    font-size: 16px;
+    margin-right: 9px;
+}
+
+.footer-box3 {
+	margin-left:10px;
+	
+}
+  .footer-box3 h2{
+	  color:white;
+	font-size:17px;
+	font-weight:600;
+	margin-bottom:22px;
+  }
   
-  } */
+  .footer-box3 p{
+	  color:white;
+	  font-size:14px;
+	  font-weight:500;
+	  
+  }
   
- 
+  .news-letter{
+	border: 1px solid white;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+	border-radius:5px;
+    margin-top:30px;
+  }
   
+  .news-letter .footer-button{
+	  display:inline-block;
+	  background-color:#ffc541;
+	  padding:10px 10px;
+	  font-size:15px;
+	  cursor:pointer;
+	  border-color:white;
+	  }
+	  
+	  .news-letter .footer-button:hover{
+	  background-color:#ffcd6b;
+	  }
