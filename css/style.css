@@ -88,9 +88,7 @@
 	background-color:transparent;
 	padding:10px 0;
 	position:fixed;
-	top:0;
-	left:0;
-	right:0;
+	width:100%;
 }
 
 .start{
@@ -335,7 +333,7 @@ font-size:25px;
 	
 .about-content ul li{
 	position:relative; 
-	padding: 2px 24px;
+	padding: 3px 24px 12px;
 
 }
 .about-content ul li i{
@@ -427,7 +425,7 @@ font-size:25px;
 
 .feature1{
 	position: relative;
-    padding-left: 49px;
+    padding-left: 52px;
     padding-bottom: 25px;
 
 }
@@ -896,11 +894,11 @@ font-size:25px;
     width: 36px;
     height: 36px;
 	text-align:center;
-	line-height:30px;
-	font-size:22px;
+	line-height:36px;
+	font-size:20px;
 	color:#484848;
     background-color:rgba(255, 255, 255, 0.8);
-	margin:0 5px;	
+	margin:0 3px;	
 	}
 	
 	.team-icon a:hover{
@@ -916,6 +914,12 @@ font-size:25px;
 
 	
 }
+
+.map{
+	
+	margin-bottom:40px;
+}
+
 .address-items{
 	position:relative;
 	padding-left:60px;
@@ -953,60 +957,51 @@ font-size:25px;
 
 	}
 
-.name input{
+.form-control{
 	
 	width: 100%;
+	height:45px;
     border: 1px solid #ced4da;
     padding: 15px;
 	color:#212529;
-    border-radius: 4px;
-	margin-bottom:30px;
-}
-
-.name input:hover{
-	
-	    border: 1px solid #ffc541;
-}
-
-.message-box input{
-	width: 100%;
-    border: 1px solid #ccc;
-    padding: 35px;
+	font-size:14px;
     border-radius: 4px;
 	margin-bottom:20px;
 }
-	
-	.message-box input:hover{
-		
-		border: 1px solid #ffc541;
-	}
 
-.square{
+textarea.form-control{
+	height:150px;
+	resize:none;
+}
+
+.btns-sec{
+	background-color:#ffc541;
+	color:#444;
+	border-color:#ffc541;
 	text-align:center;
+
 }
-	
-.submit{
-	display: inline-block;
-    text-decoration: none;
-    font-size: 15px;
-    padding: 12px 25px;
-    border: 1px solid #ffc451;
-	background-color:#ffc451;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-	cursor:pointer;
+.form-button{
 	text-align:center;
+	padding-top:20px;
+	
 }
 
-.submit:hover{
-	background: #ffcd6b;
+.btns-sec:hover{
+	border-color:#ffc541;
+	background-color:#ffc541;
+	opacity:0.8;
 }
-
+.form-control:focus{
+	outline:0;
+	border:solid 1px #ffc541;
+	
+}
 
 
 /*---footer section----*/
 .footer-section{
-	background-color:black;
+	background-color:#151515;
 	padding:50px 0;
 }
 .footer-box1 h2{
@@ -1100,27 +1095,67 @@ font-size:25px;
 	  color:white;
 	  font-size:14px;
 	  font-weight:500;
+	  padding-bottom:30px;
 	  
   }
   
-  .news-letter{
-	border: 1px solid white;
-    background-color: white;
-    display: flex;
-    justify-content: flex-end;
-	border-radius:5px;
-    margin-top:30px;
-  }
-  
-  .news-letter .footer-button{
-	  display:inline-block;
-	  background-color:#ffc541;
-	  padding:10px 10px;
-	  font-size:15px;
-	  cursor:pointer;
-	  border-color:white;
+ 
+ .subscrpition-form{
+	 
+	 position:relative;	 
+	 background-color:white;
+	 border-radius:5px;
+	 overflow:hidden;
+	 padding:6px 100px 6px 8px;
+ }
+ 
+ .subscrpition-form input{
+	
+	 width: 100%;
+    height: 36px;
+    border: 1px solid white;	 
+ }
+ 
+ .subscrpition-form .Subscribe-btn{
+	 position:absolute;
+	 top:0;
+	 right:0;
+	 height:100%;
+	 min-width:100px;
+	 padding:5px 10px;
+	 background-color:#ffc541;
+	 color:black;
+	 font-size:15px;
+	 border:0;
+	 border-radius:0;
+	 cursor:pointer;
+	 
+	 
+ }
+ 
+ .subscrpition-form .Subscribe-btn:hover{
+	 opacity:0.8;
+	 
+ }
+ 
+ 
+ 
+	  .footer-ends{
+		  background-color:black;
+		  padding:30px 0;
+		  text-align:center;
+		  
+	  }
+	  .copy-rights p{
+		  
+		  color:white;
 	  }
 	  
-	  .news-letter .footer-button:hover{
-	  background-color:#ffcd6b;
+	  .credits p{
+		  padding-top:10px;
+		  font-size:13px;
+		  color:white;
+	  }
+	  .credits p strong{
+		  color:#ffc541;
 	  }
