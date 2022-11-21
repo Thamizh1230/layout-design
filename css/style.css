@@ -178,11 +178,23 @@ h1.logo > a > span{
 	position:relative;
 }
 
+.dropdown > a > i{
+	
+	margin-left:2px;
+}
+
 .dropdown-sub{
 	
 	position:relative
 	
 }
+
+.dropdown-sub > a >i{
+	
+	margin-left:20px;
+	
+}
+
 .deepdropdown{
 	position:absolute;
 	top:50px;
@@ -1156,6 +1168,13 @@ textarea.form-control{
 		  font-size:13px;
 		  color:white;
 	  }
+	  
+	  .credits p a{
+		  
+		  text-decoration:none;
+		  
+	  }
+	  
 	  .credits p strong{
 		  color:#ffc541;
 	  }
