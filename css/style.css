@@ -1,7 +1,7 @@
 
 .container
 {
-	width:1170px;
+	width:100%;
 	margin:0 auto;
 	padding:0 15px;
 	
@@ -16,79 +16,110 @@
 	width:100%;
 	padding:0 15px;
 }
-	
-
-.col-lg-1{
+.col-1{
 	
 	width: 8.33%;
 	padding:0 15px;
 }
-.col-lg-2{                                             
+.col-2{                                             
 	
 	width: 16.66%;
 	padding:0 15px;
 }
 
-
-
-.col-lg-3{
+.col-3{
 	
 	width: 25%;
 	padding:0 15px;
 }
-.col-lg-4{
+.col-4{
 	
 	width: 33.33%;
 	padding:0 15px;
 }
-.col-lg-5{
+.col-5{
 	
 	width: 41.66%;
 	padding:0 15px;
 }
-.col-lg-6{
+.col-6{
 	
 	width: 50%;
 	padding:0 15px;
 }
-.col-lg-7{
+.col-7{
 	
 	width: 58.33%;
 	padding:0 15px;
 }
-.col-lg-8{
+.col-8{
 	
 	width: 66.66%;
 	padding:0 15px;
 }
-.col-lg-9
+.col-9
 {
 	
 	width: 75%;
 	padding:0 15px;
 }
-.col-lg-10{
+.col-10{
 	
 	width: 83.33%;
 	padding:0 15px;
 }
-.col-lg-11{
+.col-11{
 	
 	width: 91.66%;
 	padding:0 15px;
 }
-.col-lg-12{
+.col-12{
 	
 	width: 100%;
 	padding:0 15px;
 }
+
+.about-image{
+	padding-bottom:20px;
+}
+
+
+
+ .d-none{
+	display:none !important;
+}
+
+.d-block{
+	display:block !important;
+}
+
+.menu-btn{
+	
+    position: absolute;
+    top: 15px;
+    right: 13px;
+    font-size: 25px;
+    color: white;
+    background-color: transparent;
+    border: 0;
+}
+
+.coloum-reverse{
+	flex-direction: column-reverse !important;
+}
+
+
+
+
 /*------header style-----*/
 
 .top-header{
-	background-color:transparent;
-	padding:10px 0;
-	position:fixed;
-	width:100%;
+	background-color: rgba(0,0,0,80%);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+
 }
 
 .start{
@@ -252,6 +283,7 @@ h1.logo > a > span{
 
 .nav-button{
 	border-color:#ffc451;
+	margin-right:50px;
 }
 
 /* banner style----*/
@@ -302,7 +334,8 @@ font-size:25px;
 	padding:30px 20px;
 	 color:white;
    font-size:17px;
-   height:100%;
+	height:auto;
+    margin-bottom:20px;
 
 }
 
@@ -373,7 +406,7 @@ font-size:25px;
 	
 	.client-logo{
 		
-		    padding: 50px 0 40px 0;
+	 padding: 50px 0 40px 0;
 	}
 .logo-symbol{
 		height:100%;
