@@ -114,7 +114,7 @@
 /*------header style-----*/
 
 .top-header{
-	background-color: rgba(0,0,0,80%);
+	background-color: transparent;
     padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -1188,10 +1188,7 @@ textarea.form-control{
 		  text-align:center;
 		  
 	  }
-	  .copy-rights p{
-		  
-		  color:white;
-	  }
+	 
 	  
 	  .credits p{
 		  padding-top:10px;
