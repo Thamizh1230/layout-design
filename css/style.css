@@ -143,14 +143,13 @@ h1.logo > a > span{
 }
 
 .nav .nav-menu {
-	text-align:center;	
+	display:flex;
+	justify-content:center;
 }
 
 .nav .nav-menu .nav-list{
 	
-	color:white;
-	
-	display:inline-block;
+	color:white;	
 }
 
 .nav-list > a{
